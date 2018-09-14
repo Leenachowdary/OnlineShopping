@@ -21,13 +21,18 @@
 
     <link href="https://cdn.datatables.net/1.10.10/css/jquery.dataTables.min.css" rel="stylesheet">
 <title>Insert title here</title>
-
+<style type="text/css">
+body{
+background-color: #80ffff
+}
+</style>
 </head>
 <body>
+
 	<div class="container">
 		<nav class="navbar navbar-default">
 			<div class="navbar-header">
-				<a href="" class="navbar-brand"><img src="<c:url value='/resources/images/niit.jpg'></c:url>" alt="NIIT" height="5px" width="5px"></a>
+				<a href="" class="navbar-brand"><img src="<c:url value='/resources/images/niit.jpg'></c:url>" alt="NIIT" height="30px" width="70px"></a>
 			<button type="button" class="navbar-toggle collapsed" 
    data-toggle="collapse" data-target="#navbardemo" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -79,5 +84,6 @@
 			</div>
 		</nav>
 	</div>
+	
 </body>
 </html>

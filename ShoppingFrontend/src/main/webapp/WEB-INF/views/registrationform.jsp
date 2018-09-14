@@ -39,7 +39,7 @@ $(document).ready(function(){
 		rules:{
 			firstname:{required:true},
 			lastname:{required:true},
-			phonenumber:{required:true,number:true,minlength:10,maxlength:10},
+			phonenumber:{required:true,number:true,minlength:5,maxlength:5},
 			"user.email":{required:true,email:true},
 			"user.password":{required:true,minlength:5,maxlength:10},
 			"billingaddress.apartmentnumber":{required:true},

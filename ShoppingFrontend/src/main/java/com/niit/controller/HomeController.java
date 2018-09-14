@@ -11,8 +11,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-
 import com.niit.dao.ProductDao;
+
+
+
 
 
 
@@ -33,6 +35,7 @@ public String homePage(HttpSession session)//,@AuthenticationPrincipal Principal
 	session.setAttribute("categories",productDao.getAllCategories());
 	return "home";
 }
+
 @RequestMapping(value="/aboutus")
 public String aboutusPage(){
 	return "aboutus";
